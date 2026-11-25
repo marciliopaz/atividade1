@@ -1,0 +1,19 @@
+[2026-11-25T18:26:08.867+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-11-25T18:26:08.939+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: pipeline_shopbrasil.carga.salvar_no_banco manual__2026-11-25T18:24:05.157476+00:00 [queued]>
+[2026-11-25T18:26:08.956+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: pipeline_shopbrasil.carga.salvar_no_banco manual__2026-11-25T18:24:05.157476+00:00 [queued]>
+[2026-11-25T18:26:08.958+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2026-11-25T18:26:08.987+0000] {taskinstance.py:2330} INFO - Executing <Task(_PythonDecoratedOperator): carga.salvar_no_banco> on 2026-11-25 18:24:05.157476+00:00
+[2026-11-25T18:26:08.997+0000] {standard_task_runner.py:64} INFO - Started process 39653 to run task
+[2026-11-25T18:26:09.006+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'pipeline_shopbrasil', 'carga.salvar_no_banco', 'manual__2026-11-25T18:24:05.157476+00:00', '--job-id', '19', '--raw', '--subdir', 'DAGS_FOLDER/dag_shopbrasil.py', '--cfg-path', '/tmp/tmpjv0ofnh9']
+[2026-11-25T18:26:09.013+0000] {standard_task_runner.py:91} INFO - Job 19: Subtask carga.salvar_no_banco
+[2026-11-25T18:26:09.396+0000] {task_command.py:426} INFO - Running <TaskInstance: pipeline_shopbrasil.carga.salvar_no_banco manual__2026-11-25T18:24:05.157476+00:00 [running]> on host cebacbe631b9
+[2026-11-25T18:26:10.117+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='pipeline_shopbrasil' AIRFLOW_CTX_TASK_ID='carga.salvar_no_banco' AIRFLOW_CTX_EXECUTION_DATE='2026-11-25T18:24:05.157476+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-11-25T18:24:05.157476+00:00'
+[2026-11-25T18:26:10.119+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-11-25T18:26:10.179+0000] {base.py:84} INFO - Using connection ID 'postgres_lab' for task execution.
+[2026-11-25T18:26:10.202+0000] {dag_shopbrasil.py:241} INFO - Salvas 4 categorias para 2026-11-25
+[2026-11-25T18:26:10.204+0000] {python.py:237} INFO - Done. Returned value was: 4
+[2026-11-25T18:26:10.205+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-11-25T18:26:10.270+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=pipeline_shopbrasil, task_id=carga.salvar_no_banco, run_id=manual__2026-11-25T18:24:05.157476+00:00, execution_date=20261125T182405, start_date=20261125T182608, end_date=20261125T182610
+[2026-11-25T18:26:10.347+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2026-11-25T18:26:10.392+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-11-25T18:26:10.399+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

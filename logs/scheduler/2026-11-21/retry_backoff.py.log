@@ -1,0 +1,263 @@
+[2026-11-21T23:40:43.742+0000] {processor.py:161} INFO - Started process (PID=220) to work on /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:40:43.748+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/retry_backoff.py for tasks to queue
+[2026-11-21T23:40:43.756+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:40:43.754+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:40:43.869+0000] {processor.py:840} INFO - DAG(s) 'retry_backoff' retrieved from /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:40:45.101+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:40:45.100+0000] {override.py:1858} INFO - Created Permission View: can read on DAG:retry_backoff
+[2026-11-21T23:40:45.190+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:40:45.189+0000] {override.py:1858} INFO - Created Permission View: can delete on DAG:retry_backoff
+[2026-11-21T23:40:45.280+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:40:45.279+0000] {override.py:1858} INFO - Created Permission View: can edit on DAG:retry_backoff
+[2026-11-21T23:40:45.284+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:40:45.283+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-11-21T23:40:45.394+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:40:45.390+0000] {dag.py:3111} INFO - Creating ORM DAG for retry_backoff
+[2026-11-21T23:40:45.400+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:40:45.400+0000] {dag.py:3947} INFO - Setting next_dagrun for retry_backoff to None, run_after=None
+[2026-11-21T23:40:45.527+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/retry_backoff.py took 1.812 seconds
+[2026-11-21T23:41:16.416+0000] {processor.py:161} INFO - Started process (PID=267) to work on /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:41:16.425+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/retry_backoff.py for tasks to queue
+[2026-11-21T23:41:16.437+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:41:16.435+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:41:16.509+0000] {processor.py:840} INFO - DAG(s) 'retry_backoff' retrieved from /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:41:16.708+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:41:16.708+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-11-21T23:41:16.788+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:41:16.787+0000] {dag.py:3947} INFO - Setting next_dagrun for retry_backoff to None, run_after=None
+[2026-11-21T23:41:16.850+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/retry_backoff.py took 0.511 seconds
+[2026-11-21T23:41:47.550+0000] {processor.py:161} INFO - Started process (PID=313) to work on /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:41:47.553+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/retry_backoff.py for tasks to queue
+[2026-11-21T23:41:47.560+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:41:47.559+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:41:47.616+0000] {processor.py:840} INFO - DAG(s) 'retry_backoff' retrieved from /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:41:47.803+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:41:47.803+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-11-21T23:41:47.853+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:41:47.852+0000] {dag.py:3947} INFO - Setting next_dagrun for retry_backoff to None, run_after=None
+[2026-11-21T23:41:47.950+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/retry_backoff.py took 0.423 seconds
+[2026-11-21T23:42:18.887+0000] {processor.py:161} INFO - Started process (PID=357) to work on /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:42:18.892+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/retry_backoff.py for tasks to queue
+[2026-11-21T23:42:19.045+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:42:19.044+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:42:19.301+0000] {processor.py:840} INFO - DAG(s) 'retry_backoff' retrieved from /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:42:19.486+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:42:19.485+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-11-21T23:42:19.524+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:42:19.523+0000] {dag.py:3947} INFO - Setting next_dagrun for retry_backoff to None, run_after=None
+[2026-11-21T23:42:19.600+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/retry_backoff.py took 0.741 seconds
+[2026-11-21T23:42:50.276+0000] {processor.py:161} INFO - Started process (PID=398) to work on /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:42:50.279+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/retry_backoff.py for tasks to queue
+[2026-11-21T23:42:50.285+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:42:50.284+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:42:50.329+0000] {processor.py:840} INFO - DAG(s) 'retry_backoff' retrieved from /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:42:50.431+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:42:50.430+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-11-21T23:42:50.472+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:42:50.472+0000] {dag.py:3947} INFO - Setting next_dagrun for retry_backoff to None, run_after=None
+[2026-11-21T23:42:50.541+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/retry_backoff.py took 0.284 seconds
+[2026-11-21T23:43:20.650+0000] {processor.py:161} INFO - Started process (PID=445) to work on /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:43:20.652+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/retry_backoff.py for tasks to queue
+[2026-11-21T23:43:20.658+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:43:20.657+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:43:20.693+0000] {processor.py:840} INFO - DAG(s) 'retry_backoff' retrieved from /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:43:20.764+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:43:20.763+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-11-21T23:43:20.799+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:43:20.799+0000] {dag.py:3947} INFO - Setting next_dagrun for retry_backoff to None, run_after=None
+[2026-11-21T23:43:20.852+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/retry_backoff.py took 0.216 seconds
+[2026-11-21T23:43:51.068+0000] {processor.py:161} INFO - Started process (PID=492) to work on /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:43:51.076+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/retry_backoff.py for tasks to queue
+[2026-11-21T23:43:51.107+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:43:51.106+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:43:51.282+0000] {processor.py:840} INFO - DAG(s) 'retry_backoff' retrieved from /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:43:51.428+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:43:51.427+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-11-21T23:43:51.471+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:43:51.470+0000] {dag.py:3947} INFO - Setting next_dagrun for retry_backoff to None, run_after=None
+[2026-11-21T23:43:51.534+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/retry_backoff.py took 0.510 seconds
+[2026-11-21T23:44:21.862+0000] {processor.py:161} INFO - Started process (PID=539) to work on /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:44:21.865+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/retry_backoff.py for tasks to queue
+[2026-11-21T23:44:21.869+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:44:21.869+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:44:21.907+0000] {processor.py:840} INFO - DAG(s) 'retry_backoff' retrieved from /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:44:21.973+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:44:21.972+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-11-21T23:44:21.995+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:44:21.994+0000] {dag.py:3947} INFO - Setting next_dagrun for retry_backoff to None, run_after=None
+[2026-11-21T23:44:22.032+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/retry_backoff.py took 0.181 seconds
+[2026-11-21T23:44:52.302+0000] {processor.py:161} INFO - Started process (PID=584) to work on /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:44:52.304+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/retry_backoff.py for tasks to queue
+[2026-11-21T23:44:52.311+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:44:52.310+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:44:52.353+0000] {processor.py:840} INFO - DAG(s) 'retry_backoff' retrieved from /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:44:52.470+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:44:52.469+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-11-21T23:44:52.507+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:44:52.506+0000] {dag.py:3947} INFO - Setting next_dagrun for retry_backoff to None, run_after=None
+[2026-11-21T23:44:52.562+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/retry_backoff.py took 0.284 seconds
+[2026-11-21T23:45:23.126+0000] {processor.py:161} INFO - Started process (PID=631) to work on /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:45:23.129+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/retry_backoff.py for tasks to queue
+[2026-11-21T23:45:23.136+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:45:23.135+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:45:23.221+0000] {processor.py:840} INFO - DAG(s) 'retry_backoff' retrieved from /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:45:23.430+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:45:23.429+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-11-21T23:45:23.587+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:45:23.586+0000] {dag.py:3947} INFO - Setting next_dagrun for retry_backoff to None, run_after=None
+[2026-11-21T23:45:23.946+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/retry_backoff.py took 0.837 seconds
+[2026-11-21T23:45:54.550+0000] {processor.py:161} INFO - Started process (PID=678) to work on /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:45:54.553+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/retry_backoff.py for tasks to queue
+[2026-11-21T23:45:54.559+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:45:54.558+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:45:54.607+0000] {processor.py:840} INFO - DAG(s) 'retry_backoff' retrieved from /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:45:54.701+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:45:54.700+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-11-21T23:45:54.739+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:45:54.738+0000] {dag.py:3947} INFO - Setting next_dagrun for retry_backoff to None, run_after=None
+[2026-11-21T23:45:54.800+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/retry_backoff.py took 0.274 seconds
+[2026-11-21T23:46:25.993+0000] {processor.py:161} INFO - Started process (PID=721) to work on /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:46:25.998+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/retry_backoff.py for tasks to queue
+[2026-11-21T23:46:26.007+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:46:26.005+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:46:26.076+0000] {processor.py:840} INFO - DAG(s) 'retry_backoff' retrieved from /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:46:26.249+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:46:26.249+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-11-21T23:46:26.322+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:46:26.321+0000] {dag.py:3947} INFO - Setting next_dagrun for retry_backoff to None, run_after=None
+[2026-11-21T23:46:26.465+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/retry_backoff.py took 0.513 seconds
+[2026-11-21T23:46:56.656+0000] {processor.py:161} INFO - Started process (PID=768) to work on /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:46:56.658+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/retry_backoff.py for tasks to queue
+[2026-11-21T23:46:56.663+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:46:56.662+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:46:56.699+0000] {processor.py:840} INFO - DAG(s) 'retry_backoff' retrieved from /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:46:56.766+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:46:56.765+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-11-21T23:46:56.804+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:46:56.804+0000] {dag.py:3947} INFO - Setting next_dagrun for retry_backoff to None, run_after=None
+[2026-11-21T23:46:56.884+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/retry_backoff.py took 0.244 seconds
+[2026-11-21T23:47:27.793+0000] {processor.py:161} INFO - Started process (PID=813) to work on /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:47:27.800+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/retry_backoff.py for tasks to queue
+[2026-11-21T23:47:27.806+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:47:27.805+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:47:27.860+0000] {processor.py:840} INFO - DAG(s) 'retry_backoff' retrieved from /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:47:27.954+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:47:27.953+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-11-21T23:47:27.994+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:47:27.994+0000] {dag.py:3947} INFO - Setting next_dagrun for retry_backoff to None, run_after=None
+[2026-11-21T23:47:28.042+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/retry_backoff.py took 0.272 seconds
+[2026-11-21T23:47:58.328+0000] {processor.py:161} INFO - Started process (PID=860) to work on /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:47:58.333+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/retry_backoff.py for tasks to queue
+[2026-11-21T23:47:58.340+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:47:58.339+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:47:58.382+0000] {processor.py:840} INFO - DAG(s) 'retry_backoff' retrieved from /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:47:58.488+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:47:58.488+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-11-21T23:47:58.552+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:47:58.552+0000] {dag.py:3947} INFO - Setting next_dagrun for retry_backoff to None, run_after=None
+[2026-11-21T23:47:58.634+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/retry_backoff.py took 0.324 seconds
+[2026-11-21T23:48:29.149+0000] {processor.py:161} INFO - Started process (PID=907) to work on /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:48:29.154+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/retry_backoff.py for tasks to queue
+[2026-11-21T23:48:29.161+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:48:29.160+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:48:29.219+0000] {processor.py:840} INFO - DAG(s) 'retry_backoff' retrieved from /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:48:29.285+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:48:29.284+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-11-21T23:48:29.334+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:48:29.333+0000] {dag.py:3947} INFO - Setting next_dagrun for retry_backoff to None, run_after=None
+[2026-11-21T23:48:29.401+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/retry_backoff.py took 0.280 seconds
+[2026-11-21T23:49:00.703+0000] {processor.py:161} INFO - Started process (PID=955) to work on /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:49:00.706+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/retry_backoff.py for tasks to queue
+[2026-11-21T23:49:00.711+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:49:00.711+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:49:00.751+0000] {processor.py:840} INFO - DAG(s) 'retry_backoff' retrieved from /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:49:01.074+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:49:01.074+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-11-21T23:49:01.125+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:49:01.125+0000] {dag.py:3947} INFO - Setting next_dagrun for retry_backoff to None, run_after=None
+[2026-11-21T23:49:01.189+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/retry_backoff.py took 0.501 seconds
+[2026-11-21T23:49:32.149+0000] {processor.py:161} INFO - Started process (PID=996) to work on /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:49:32.159+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/retry_backoff.py for tasks to queue
+[2026-11-21T23:49:32.171+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:49:32.170+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:49:32.223+0000] {processor.py:840} INFO - DAG(s) 'retry_backoff' retrieved from /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:49:32.311+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:49:32.310+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-11-21T23:49:32.339+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:49:32.339+0000] {dag.py:3947} INFO - Setting next_dagrun for retry_backoff to None, run_after=None
+[2026-11-21T23:49:32.388+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/retry_backoff.py took 0.269 seconds
+[2026-11-21T23:50:02.633+0000] {processor.py:161} INFO - Started process (PID=1043) to work on /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:50:02.636+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/retry_backoff.py for tasks to queue
+[2026-11-21T23:50:02.642+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:50:02.641+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:50:02.695+0000] {processor.py:840} INFO - DAG(s) 'retry_backoff' retrieved from /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:50:02.775+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:50:02.775+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-11-21T23:50:02.801+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:50:02.801+0000] {dag.py:3947} INFO - Setting next_dagrun for retry_backoff to None, run_after=None
+[2026-11-21T23:50:02.847+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/retry_backoff.py took 0.229 seconds
+[2026-11-21T23:50:33.637+0000] {processor.py:161} INFO - Started process (PID=1090) to work on /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:50:33.640+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/retry_backoff.py for tasks to queue
+[2026-11-21T23:50:33.649+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:50:33.648+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:50:33.702+0000] {processor.py:840} INFO - DAG(s) 'retry_backoff' retrieved from /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:50:33.790+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:50:33.789+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-11-21T23:50:33.819+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:50:33.818+0000] {dag.py:3947} INFO - Setting next_dagrun for retry_backoff to None, run_after=None
+[2026-11-21T23:50:33.863+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/retry_backoff.py took 0.247 seconds
+[2026-11-21T23:51:04.155+0000] {processor.py:161} INFO - Started process (PID=1137) to work on /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:51:04.158+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/retry_backoff.py for tasks to queue
+[2026-11-21T23:51:04.162+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:51:04.161+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:51:04.198+0000] {processor.py:840} INFO - DAG(s) 'retry_backoff' retrieved from /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:51:04.270+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:51:04.270+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-11-21T23:51:04.326+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:51:04.326+0000] {dag.py:3947} INFO - Setting next_dagrun for retry_backoff to None, run_after=None
+[2026-11-21T23:51:04.439+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/retry_backoff.py took 0.300 seconds
+[2026-11-21T23:51:34.774+0000] {processor.py:161} INFO - Started process (PID=1184) to work on /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:51:34.777+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/retry_backoff.py for tasks to queue
+[2026-11-21T23:51:34.782+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:51:34.781+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:51:34.820+0000] {processor.py:840} INFO - DAG(s) 'retry_backoff' retrieved from /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:51:34.889+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:51:34.888+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-11-21T23:51:34.914+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:51:34.913+0000] {dag.py:3947} INFO - Setting next_dagrun for retry_backoff to None, run_after=None
+[2026-11-21T23:51:34.964+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/retry_backoff.py took 0.205 seconds
+[2026-11-21T23:52:06.112+0000] {processor.py:161} INFO - Started process (PID=1229) to work on /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:52:06.115+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/retry_backoff.py for tasks to queue
+[2026-11-21T23:52:06.127+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:52:06.125+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:52:06.209+0000] {processor.py:840} INFO - DAG(s) 'retry_backoff' retrieved from /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:52:06.293+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:52:06.292+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-11-21T23:52:06.322+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:52:06.322+0000] {dag.py:3947} INFO - Setting next_dagrun for retry_backoff to None, run_after=None
+[2026-11-21T23:52:06.364+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/retry_backoff.py took 0.293 seconds
+[2026-11-21T23:52:36.658+0000] {processor.py:161} INFO - Started process (PID=1272) to work on /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:52:36.661+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/retry_backoff.py for tasks to queue
+[2026-11-21T23:52:36.666+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:52:36.665+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:52:36.699+0000] {processor.py:840} INFO - DAG(s) 'retry_backoff' retrieved from /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:52:36.763+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:52:36.762+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-11-21T23:52:36.789+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:52:36.788+0000] {dag.py:3947} INFO - Setting next_dagrun for retry_backoff to None, run_after=None
+[2026-11-21T23:52:36.828+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/retry_backoff.py took 0.183 seconds
+[2026-11-21T23:53:07.647+0000] {processor.py:161} INFO - Started process (PID=1319) to work on /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:53:07.651+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/retry_backoff.py for tasks to queue
+[2026-11-21T23:53:07.657+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:53:07.656+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:53:07.702+0000] {processor.py:840} INFO - DAG(s) 'retry_backoff' retrieved from /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:53:07.773+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:53:07.772+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-11-21T23:53:07.807+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:53:07.806+0000] {dag.py:3947} INFO - Setting next_dagrun for retry_backoff to None, run_after=None
+[2026-11-21T23:53:07.870+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/retry_backoff.py took 0.238 seconds
+[2026-11-21T23:53:41.444+0000] {processor.py:161} INFO - Started process (PID=1364) to work on /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:53:41.461+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/retry_backoff.py for tasks to queue
+[2026-11-21T23:53:41.516+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:53:41.515+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:53:41.727+0000] {processor.py:840} INFO - DAG(s) 'retry_backoff' retrieved from /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:53:42.019+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:53:42.008+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-11-21T23:53:42.099+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:53:42.099+0000] {dag.py:3947} INFO - Setting next_dagrun for retry_backoff to None, run_after=None
+[2026-11-21T23:53:42.269+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/retry_backoff.py took 0.866 seconds
+[2026-11-21T23:54:30.935+0000] {processor.py:161} INFO - Started process (PID=1411) to work on /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:54:31.035+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/retry_backoff.py for tasks to queue
+[2026-11-21T23:54:31.133+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:54:31.132+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:54:34.449+0000] {processor.py:840} INFO - DAG(s) 'retry_backoff' retrieved from /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:54:34.771+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:54:34.770+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-11-21T23:54:34.988+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:54:34.987+0000] {dag.py:3947} INFO - Setting next_dagrun for retry_backoff to None, run_after=None
+[2026-11-21T23:54:35.542+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/retry_backoff.py took 4.664 seconds
+[2026-11-21T23:55:06.906+0000] {processor.py:161} INFO - Started process (PID=1460) to work on /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:55:07.018+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/retry_backoff.py for tasks to queue
+[2026-11-21T23:55:07.034+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:55:07.033+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:55:07.086+0000] {processor.py:840} INFO - DAG(s) 'retry_backoff' retrieved from /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:55:07.178+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:55:07.177+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-11-21T23:55:07.249+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:55:07.249+0000] {dag.py:3947} INFO - Setting next_dagrun for retry_backoff to None, run_after=None
+[2026-11-21T23:55:07.417+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/retry_backoff.py took 0.552 seconds
+[2026-11-21T23:55:37.992+0000] {processor.py:161} INFO - Started process (PID=1508) to work on /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:55:37.995+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/retry_backoff.py for tasks to queue
+[2026-11-21T23:55:38.001+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:55:38.001+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:55:38.041+0000] {processor.py:840} INFO - DAG(s) 'retry_backoff' retrieved from /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:55:38.169+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:55:38.169+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-11-21T23:55:38.224+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:55:38.223+0000] {dag.py:3947} INFO - Setting next_dagrun for retry_backoff to None, run_after=None
+[2026-11-21T23:55:38.269+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/retry_backoff.py took 0.291 seconds
+[2026-11-21T23:56:08.955+0000] {processor.py:161} INFO - Started process (PID=1553) to work on /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:56:08.959+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/retry_backoff.py for tasks to queue
+[2026-11-21T23:56:08.967+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:56:08.966+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:56:09.018+0000] {processor.py:840} INFO - DAG(s) 'retry_backoff' retrieved from /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:56:09.090+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:56:09.089+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-11-21T23:56:09.117+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:56:09.117+0000] {dag.py:3947} INFO - Setting next_dagrun for retry_backoff to None, run_after=None
+[2026-11-21T23:56:09.160+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/retry_backoff.py took 0.227 seconds
+[2026-11-21T23:56:41.845+0000] {processor.py:161} INFO - Started process (PID=1600) to work on /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:56:41.874+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/retry_backoff.py for tasks to queue
+[2026-11-21T23:56:41.938+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:56:41.937+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:56:42.085+0000] {processor.py:840} INFO - DAG(s) 'retry_backoff' retrieved from /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:56:42.324+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:56:42.323+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-11-21T23:56:42.367+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:56:42.366+0000] {dag.py:3947} INFO - Setting next_dagrun for retry_backoff to None, run_after=None
+[2026-11-21T23:56:42.431+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/retry_backoff.py took 0.691 seconds
+[2026-11-21T23:57:12.861+0000] {processor.py:161} INFO - Started process (PID=1646) to work on /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:57:12.866+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/retry_backoff.py for tasks to queue
+[2026-11-21T23:57:12.874+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:57:12.873+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:57:12.927+0000] {processor.py:840} INFO - DAG(s) 'retry_backoff' retrieved from /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:57:13.022+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:57:13.022+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-11-21T23:57:13.081+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:57:13.080+0000] {dag.py:3947} INFO - Setting next_dagrun for retry_backoff to None, run_after=None
+[2026-11-21T23:57:13.145+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/retry_backoff.py took 0.316 seconds
+[2026-11-21T23:57:43.585+0000] {processor.py:161} INFO - Started process (PID=1684) to work on /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:57:43.587+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/retry_backoff.py for tasks to queue
+[2026-11-21T23:57:43.594+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:57:43.593+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:57:43.635+0000] {processor.py:840} INFO - DAG(s) 'retry_backoff' retrieved from /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:57:43.719+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:57:43.719+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-11-21T23:57:43.750+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:57:43.749+0000] {dag.py:3947} INFO - Setting next_dagrun for retry_backoff to None, run_after=None
+[2026-11-21T23:57:43.798+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/retry_backoff.py took 0.230 seconds
+[2026-11-21T23:58:14.033+0000] {processor.py:161} INFO - Started process (PID=1731) to work on /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:58:14.037+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/retry_backoff.py for tasks to queue
+[2026-11-21T23:58:14.041+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:58:14.041+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:58:14.078+0000] {processor.py:840} INFO - DAG(s) 'retry_backoff' retrieved from /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:58:14.171+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:58:14.170+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-11-21T23:58:14.206+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:58:14.206+0000] {dag.py:3947} INFO - Setting next_dagrun for retry_backoff to None, run_after=None
+[2026-11-21T23:58:14.273+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/retry_backoff.py took 0.253 seconds
+[2026-11-21T23:58:45.019+0000] {processor.py:161} INFO - Started process (PID=1778) to work on /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:58:45.022+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/retry_backoff.py for tasks to queue
+[2026-11-21T23:58:45.031+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:58:45.030+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:58:45.091+0000] {processor.py:840} INFO - DAG(s) 'retry_backoff' retrieved from /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:58:45.235+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:58:45.234+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-11-21T23:58:45.300+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:58:45.299+0000] {dag.py:3947} INFO - Setting next_dagrun for retry_backoff to None, run_after=None
+[2026-11-21T23:58:45.350+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/retry_backoff.py took 0.346 seconds
+[2026-11-21T23:59:16.166+0000] {processor.py:161} INFO - Started process (PID=1825) to work on /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:59:16.170+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/retry_backoff.py for tasks to queue
+[2026-11-21T23:59:16.175+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:59:16.174+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:59:16.211+0000] {processor.py:840} INFO - DAG(s) 'retry_backoff' retrieved from /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:59:16.312+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:59:16.312+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-11-21T23:59:16.376+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:59:16.376+0000] {dag.py:3947} INFO - Setting next_dagrun for retry_backoff to None, run_after=None
+[2026-11-21T23:59:16.453+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/retry_backoff.py took 0.309 seconds
+[2026-11-21T23:59:47.939+0000] {processor.py:161} INFO - Started process (PID=1870) to work on /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:59:47.949+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/retry_backoff.py for tasks to queue
+[2026-11-21T23:59:47.971+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:59:47.962+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:59:48.279+0000] {processor.py:840} INFO - DAG(s) 'retry_backoff' retrieved from /opt/airflow/dags/retry_backoff.py
+[2026-11-21T23:59:48.558+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:59:48.557+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-11-21T23:59:48.687+0000] {logging_mixin.py:188} INFO - [2026-11-21T23:59:48.686+0000] {dag.py:3947} INFO - Setting next_dagrun for retry_backoff to None, run_after=None
+[2026-11-21T23:59:48.996+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/retry_backoff.py took 1.122 seconds

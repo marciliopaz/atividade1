@@ -1,0 +1,18 @@
+[2026-11-25T18:39:37.216+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-11-25T18:39:37.301+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: pipeline_shopbrasil.transformacao.consolidar manual__2026-11-25T18:38:45.589461+00:00 [queued]>
+[2026-11-25T18:39:37.319+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: pipeline_shopbrasil.transformacao.consolidar manual__2026-11-25T18:38:45.589461+00:00 [queued]>
+[2026-11-25T18:39:37.329+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2026-11-25T18:39:37.350+0000] {taskinstance.py:2330} INFO - Executing <Task(_PythonDecoratedOperator): transformacao.consolidar> on 2026-11-25 18:38:45.589461+00:00
+[2026-11-25T18:39:37.358+0000] {standard_task_runner.py:64} INFO - Started process 41002 to run task
+[2026-11-25T18:39:37.365+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'pipeline_shopbrasil', 'transformacao.consolidar', 'manual__2026-11-25T18:38:45.589461+00:00', '--job-id', '27', '--raw', '--subdir', 'DAGS_FOLDER/dag_shopbrasil.py', '--cfg-path', '/tmp/tmp0q7ygfz9']
+[2026-11-25T18:39:37.370+0000] {standard_task_runner.py:91} INFO - Job 27: Subtask transformacao.consolidar
+[2026-11-25T18:39:37.477+0000] {task_command.py:426} INFO - Running <TaskInstance: pipeline_shopbrasil.transformacao.consolidar manual__2026-11-25T18:38:45.589461+00:00 [running]> on host cebacbe631b9
+[2026-11-25T18:39:37.972+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='pipeline_shopbrasil' AIRFLOW_CTX_TASK_ID='transformacao.consolidar' AIRFLOW_CTX_EXECUTION_DATE='2026-11-25T18:38:45.589461+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-11-25T18:38:45.589461+00:00'
+[2026-11-25T18:39:37.974+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-11-25T18:39:37.975+0000] {python.py:237} INFO - Done. Returned value was: [{'categoria': 'electronics', 'quantidade': 6, 'preco_medio': 332.5, 'preco_minimo': 64.0, 'preco_maximo': 999.99}, {'categoria': 'jewelery', 'quantidade': 4, 'preco_medio': 221.0, 'preco_minimo': 9.99, 'preco_maximo': 695.0}, {'categoria': "men's clothing", 'quantidade': 4, 'preco_medio': 51.06, 'preco_minimo': 15.99, 'preco_maximo': 109.95}, {'categoria': "women's clothing", 'quantidade': 6, 'preco_medio': 26.29, 'preco_minimo': 7.95, 'preco_maximo': 56.99}]
+[2026-11-25T18:39:37.995+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-11-25T18:39:38.000+0000] {xcom.py:237} WARNING - Coercing mapped lazy proxy return value from task transformacao.consolidar (DAG pipeline_shopbrasil, run manual__2026-11-25T18:38:45.589461+00:00) to list, which may degrade performance. Review resource requirements for this operation, and call list() to suppress this message. See Dynamic Task Mapping documentation for more information about lazy proxy objects.
+[2026-11-25T18:39:38.032+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=pipeline_shopbrasil, task_id=transformacao.consolidar, run_id=manual__2026-11-25T18:38:45.589461+00:00, execution_date=20261125T183845, start_date=20261125T183937, end_date=20261125T183938
+[2026-11-25T18:39:38.062+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2026-11-25T18:39:38.103+0000] {taskinstance.py:3503} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-11-25T18:39:38.112+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
