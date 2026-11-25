@@ -3,7 +3,7 @@
 # Apache Airflow 2.x + PostgreSQL (metadata DB + destino do ETL)
 # =============================================================================
 #
-# O QUE ESTE ARQUIVO SOBE (7 containers):
+# O QUE ESTE ARQUIVO SOBE (6 containers):
 #
 #   postgres-meta      → banco INTERNO do Airflow (guarda DAGs, runs, logs de
 #                        execução, usuários, connections...). Você não mexe nele.

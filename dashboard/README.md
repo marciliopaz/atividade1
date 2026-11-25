@@ -11,9 +11,10 @@ dashboard na raiz do projeto:
 docker compose up -d --build shopbrasil-dashboard
 ```
 
-Acesse <http://localhost:8501>. O painel atualiza os dados a cada 30 segundos;
-use **Atualizar agora** para forçar uma atualização. Por padrão, as credenciais
-e endereços são os do ambiente de laboratório definido no `docker-compose.yml`.
+Acesse <http://localhost:8501>. Os dados ficam em cache por até 30 segundos;
+use **Atualizar agora** para limpar o cache e recarregar o painel. Por padrão,
+as credenciais e endereços são os do ambiente de laboratório definido no
+`docker-compose.yml`.
 Para outro ambiente, configure `DB_HOST`, `DB_PORT`, `DB_NAME`, `DB_USER`,
 `DB_PASSWORD`, `AIRFLOW_API_URL`, `AIRFLOW_UI_URL`, `AIRFLOW_USER` e
 `AIRFLOW_PASSWORD`.

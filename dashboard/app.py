@@ -179,12 +179,17 @@ try:
 except requests.exceptions.RequestException as exc:
     st.error(f"Não foi possível consultar a API do Airflow: {exc}")
     execucoes = []
+    erro_api_airflow = True
 except ValueError as exc:
     st.error(f"Resposta inválida da API do Airflow: {exc}")
     execucoes = []
+    erro_api_airflow = True
+else:
+    erro_api_airflow = False
 
 if not execucoes:
-    st.info("Nenhuma execução encontrada para a DAG pipeline_shopbrasil.")
+    if not erro_api_airflow:
+        st.info("Nenhuma execução encontrada para a DAG pipeline_shopbrasil.")
 else:
     execucao_selecionada = st.selectbox(
         "Execução para acompanhamento",
@@ -210,9 +215,13 @@ else:
         except requests.exceptions.RequestException as exc:
             st.error(f"Não foi possível consultar as tarefas desta execução: {exc}")
             tarefas = []
+            erro_tarefas = True
         except ValueError as exc:
             st.error(f"Resposta inválida das tarefas no Airflow: {exc}")
             tarefas = []
+            erro_tarefas = True
+        else:
+            erro_tarefas = False
 
         if tarefas:
             linhas_tarefas = []
@@ -236,7 +245,7 @@ else:
                 use_container_width=True,
                 hide_index=True,
             )
-        else:
+        elif not erro_tarefas:
             st.info("Ainda não há tarefas registradas para esta execução.")
 
     with st.expander("Últimas execuções"):
@@ -264,9 +273,13 @@ except psycopg2.errors.UndefinedTable:
         "`carga.salvar_no_banco` concluir sua primeira execução."
     )
     metricas = pd.DataFrame(columns=METRIC_COLUMNS)
+    erro_consulta_metricas = True
 except psycopg2.Error as exc:
     st.error(f"Não foi possível consultar o PostgreSQL: {exc}")
     metricas = pd.DataFrame(columns=METRIC_COLUMNS)
+    erro_consulta_metricas = True
+else:
+    erro_consulta_metricas = False
 
 if not metricas.empty:
     min_date = metricas["data_consulta"].min()
@@ -371,7 +384,8 @@ if not metricas.empty:
         )
         st.dataframe(tabela, use_container_width=True, hide_index=True)
 else:
-    st.info(
-        "As métricas serão exibidas após a task `carga.salvar_no_banco` "
-        "concluir a primeira execução da DAG."
-    )
+    if not erro_consulta_metricas:
+        st.info(
+            "As métricas serão exibidas após a task `carga.salvar_no_banco` "
+            "concluir a primeira execução da DAG."
+        )
