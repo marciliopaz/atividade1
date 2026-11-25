@@ -1,2 +1,9 @@
 /.venv
 /.venv-1
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Airflow task and scheduler logs
+/logs/
